@@ -7,3 +7,7 @@ Ansible is a software tool that provides simple but powerful automation for cros
 ![image](https://github.com/TauqeerAhmad5201/ansible/assets/68806440/95bfce1e-f21c-4e7a-b458-1e5f9de4a321)
 
 DOCS: https://docs.ansible.com/
+
+## inventory-file
+hosts   
+/home/ubuntu/ansible/hosts (can be defined anywhere) 
