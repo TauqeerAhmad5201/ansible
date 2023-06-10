@@ -26,3 +26,6 @@ ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ss
 ```
 ansible all (groups) -a "sudo apt install nginx" -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ssh/ansible_key
 ```
+```
+ansible demo -ba "apt remove nginx -y" 
+```
