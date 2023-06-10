@@ -29,3 +29,8 @@ ansible all (groups) -a "sudo apt install nginx" -i /home/ubuntu/ansible/hosts -
 ```
 ansible demo -ba "apt remove nginx -y" 
 ```
+
+## ansible module command - oneliner 
+```
+ansible servers -b -m apt -a "pkg=git state=present"
+```
