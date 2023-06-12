@@ -24,7 +24,7 @@ ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ss
 ```
 ## running the ansible playbook 
 ```
-anisble playbook <playbook_name.yml> -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ssh/ansible_key
+anisble-playbook <playbook_name.yml> -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ssh/ansible_key
 ```
 ## ad hoc command - where linux command is used
 ```
