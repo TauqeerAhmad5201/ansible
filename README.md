@@ -33,7 +33,7 @@ anisble-playbook <playbook_name.yml> -i /home/ubuntu/ansible/hosts --private-key
 ansible all (groups) -a "sudo apt install nginx" -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ssh/ansible_key
 ```
 ```
-ansible demo -ba "apt remove nginx -y" 
+ansible demo - "apt remove nginx -y" 
 ```
 
 ## ansible module command - oneliner 
