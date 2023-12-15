@@ -30,7 +30,7 @@ anisble-playbook <playbook_name.yml> -i /home/ubuntu/ansible/hosts --private-key
 ```
 ## ad hoc command - where linux command is used
 ```
-ansible all (groups) -a "sudo apt install " -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ssh/ansible_key
+ansible all (groups) -a "sudo apt install nginx" -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ssh/ansible_key
 ```
 ```
 ansible demo -ba "apt remove nginx -y" 
