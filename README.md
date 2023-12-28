@@ -19,7 +19,7 @@ hosts
 ```
 ansible-inventory --list -y -i /home/ubuntu/ansible/hosts
 ```
-##  the connected nodes
+##  ping to all the connected nodes
 
 ```
 ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ssh/ansible_key
