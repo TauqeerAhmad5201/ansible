@@ -11,7 +11,7 @@ DOCS: https://docs.ansible.com/
 Ansible Module: https://docs.ansible.com/ansible/2.9/modules/list_of_all_modules.html
 
 ## inventory-file
-hosts   
+  
 /home/ubuntu/ansible/hosts (can be defined anywhere) 
 
 ## checking the inventory which contains all the hosts and servers with IP 
