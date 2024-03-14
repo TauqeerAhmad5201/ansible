@@ -28,7 +28,7 @@ ansible all -m ping -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ss
 ```
 anisble-playbook <playbook_name.yml> -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ssh/ansible_key
 ```
-## ad hoc command - where  is used
+## ad hoc command - linux command where  is used
 ```
 ansible all (groups) -a "sudo apt install nginx" -i /home/ubuntu/ansible/hosts --private-key=/home/ubuntu/.ssh/ansible_key
 ```
